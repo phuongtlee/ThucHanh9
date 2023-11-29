@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bai1.AutoCompleteText"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/selection"
+        android:background="#5576be"
+        android:text="TextView"
+        android:textColor="#ffffff"
+        android:textSize="20sp"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/edit_auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:completionThreshold="1"
+        android:text="AutoCompleteTextView"/>
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/mul_edit_auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:completionThreshold="1"
+        android:text="MultiAutoCompleteTextView"/>
+
+</LinearLayout>
